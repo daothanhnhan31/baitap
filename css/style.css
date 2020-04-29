@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: none;
+    box-sizing: border-box;
+}
+body{
+	font-family: Arial;
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+div.header{
+	width: 900px;
+	height: auto;
+}	
+#header{
+	padding: 10px;
+	margin: 10px;
+}
+#logo{
+	width: 370px;
+	height: 80px;
+	padding-left: 150px;
+}
+header div#header-left{
+	width: 40%;
+	float: left;
+}
+header div#header-right{
+	width: 60%;
+	float: right;
+}
+header div#header-right ul{
+	text-align: right;
+}
+header div#header-right ul li{
+	display: inline;
+}
+header div#header-right ul li a{
+	padding: 5px;
+}
+#search{
+	padding-top: 25px;
+}
+#icon{
+	padding-right: 150px;
+	font-family: Arial;
+	font-size: 15px;
+	color: blue;
+}
+
+.form-search{
+	width: 283px;
+	height: 30px;
+}
+.btn{
+	width: 100px;
+	height: 35px;
+	background-color: #398ed5;
+	color:white;
+	border: 0px;
+	border-top-width: 0px;
+}
+.block-title-7 {
+    position: relative;
+    margin-bottom: 0;
+}
+.center-backline:before, .center-backline-lg:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    top: 45%;
+    background-color: #6c63ff;
+    left: 0;
+    right: 0;
+}
+.center-backline:before, .center-backline-lg:before, .title-arrow:before {
+    background-color: #1e73be !important;
+}
+.center-backline:before {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h3{
+	padding-right: 5px;
+}
+.col-md-4 a{
+	color: black;
+}
+.row{
+	float: left;
+}
+ 
+
