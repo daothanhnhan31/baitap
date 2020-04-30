@@ -1,12 +1,10 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	outline: none;
-    box-sizing: border-box;
 }
 body{
 	font-family: Arial;
-	font-size: 12px;
+	font-size: 13px;
 }
 a{
 	text-decoration: none;
@@ -21,30 +19,52 @@ div.header{
 	width: 900px;
 	height: auto;
 }	
-#header{
+#head{
 	padding: 10px;
 	margin: 10px;
 }
 #logo{
-	width: 370px;
-	height: 80px;
-	padding-left: 150px;
+	width: 250px;
+    height: 89px;
+    padding-left: 150px;
+} 
+header{
+	display: inline-block;
 }
-header div#header-left{
+#left1{
+	margin: 1px;
+    margin-left: 0px;
+}
+#center1{
+    margin: 0px;
+    margin-left: 470px;
+    margin-top: -48px;
+}
+#right1{
+	margin-left: 925px;
+    margin-top: -26px;
+}
+
+header div .left{
 	width: 40%;
 	float: left;
 }
-header div#header-right{
-	width: 60%;
+header div .header-center{
+	width: 30%;
 	float: right;
 }
-header div#header-right ul{
-	text-align: right;
+header div .header-right{
+	width: 30%;
+	float: right;
 }
-header div#header-right ul li{
+header div .header-right ul{
+	text-align: right;
+	width: 300px;
+}
+.header-left li{
 	display: inline;
 }
-header div#header-right ul li a{
+header div .header-right ul li a{
 	padding: 5px;
 }
 #search{
@@ -56,7 +76,6 @@ header div#header-right ul li a{
 	font-size: 15px;
 	color: blue;
 }
-
 .form-search{
 	width: 283px;
 	height: 30px;
@@ -68,53 +87,150 @@ header div#header-right ul li a{
 	color:white;
 	border: 0px;
 	border-top-width: 0px;
+}.main{
+	width: 1337px;
+	height:0px;
 }
-.block-title-7 {
-    position: relative;
-    margin-bottom: 0;
+.main1{
+	height: 100%;
 }
-.center-backline:before, .center-backline-lg:before {
-    content: "";
-    position: absolute;
-    height: 2px;
-    top: 45%;
-    background-color: #6c63ff;
-    left: 0;
-    right: 0;
+.new{
+    margin-top: 38px;
+    margin-left: 162px;
 }
-.center-backline:before, .center-backline-lg:before, .title-arrow:before {
-    background-color: #1e73be !important;
+.img-new img{
+	width: 257px;
+	height: 250px;
 }
-.center-backline:before {
-    margin-top: 5px;
-    margin-bottom: 0;
+.line hr{
+	margin-left:200px;
+	width: 1000px;
+	border: 1px solid #297aff;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    line-height: 1.5rem;
-    font-weight: 500;
+#linehr{
+	margin: 0px;
+	margin-top: 45px;
+	
 }
-h4 {
-    display: block;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+#title-new{
+	background-color: white;
+	font-family: Arial;
+	font-size: 20px;
+	color:#297aff;
+	text-align: center;
+	width: 200px;
+	height: 20px;
+	margin-left: 570px;
+    margin-top: -10px;
 }
-*, *::before, *::after {
-    box-sizing: border-box;
+.new-box{
+	text-decoration:none;
 }
-*, *::before, *::after {
-    box-sizing: border-box;
+.icon-new{
+	text-overflow: ellipsis;
 }
-h3{
-	padding-right: 5px;
+.note p{
+	word-break: break-all;
+	text-align:center;
 }
-.col-md-4 a{
+#box1{
+   	float:left;  
+	width: 23%; 
+    height:100%;
+    margin-left: 1px;  
+}
+#box2{
+   	float:left;  
+	width: 23%;
+    height:100%;  
+}
+#box3{
+   	float:left;  
+	width: 23%;
+    height:100%;  
+}
+#box4{
+   	float:left;  
+	width: 23%;
+    height:100%; 
+    margin-top: 0px;
+}
+.btn-read input{
+	width: 80px;
+	height: 30px;
+	background-color: #2754fc;
+	color:white;
+	border: 0px;
+	border-top-width: 0px;
+	font-family: arial;
+	font-weight: 2px;
+	margin-top: 15px;
+}
+.bottom{
+	width: 1349px;
+	height:150px;
+	background-color: #bdbdbd;
+}
+
+.title{
+	font-family: Arial;
+	font-size: 15px;
+	color: black;
+	height: 25px;
+	margin-top: 4px;
+    margin-bottom: 15px;
+}
+.footer{
+	margin-top: 550px;
+	margin-left: 160px;
+	font-family: Arial;
+	background-color: grey;
+}
+.underline{
+	width: 90%;
+	border: 0.5px solid black;
+}
+#btm-1{
+   	float:left;  
+	width: 23%; 
+    margin-left: 1px;  
+    padding-top: 25px;
+}
+#btm-2{
+   	float:left;  
+	width: 23%;
+	padding-top: 25px;
+}
+#btm-3{
+   	float:left;  
+	width: 23%;
+    padding-top: 25px; 
+    border-bottom: 0.5px solid gray;
+}
+#btm-4{
+   	float:left;  
+	width: 23%;
+    margin-top: 0px;
+    padding-top: 25px;
+}
+.link{
 	color: black;
 }
-.row{
-	float: left;
+.footer ul li{
+	color: black;
+	font-size: 13px;
+	line-height: 23px;
 }
- 
+#mail{
+margin: 15px;
+margin-left: 1px;
 
+
+}
+#mail input{
+	background-color: #bdbdbd;
+	border:0px;
+}
+.signin span{
+	margin: 0.2px;
+}
