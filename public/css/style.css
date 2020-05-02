@@ -1,0 +1,72 @@
+/* header css */
+.header {
+    border-bottom: #9f9c9c 1px solid;
+    height: 93px;
+}
+/* content css */
+.content {
+    width: 1200px;
+    margin: 0 auto;
+    height: 93px;
+}
+/* logo css */
+.logo {
+    float: left;
+}
+/* search css */
+.search-bar {
+    float: left;
+}
+.search-bar form {
+    margin-top: 25px;
+}
+.search-bar form input {
+    width: 505px;
+    height: 40px;
+    font-size: 13px;
+    float: left;
+}
+.search-bar form button {
+    height: 46px;
+    width: 68px;
+    background-color: #0f9ed8;
+    color: #ffffff;
+    float: left;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+/* account css */
+.account {
+    float: right;
+    margin-top: 25px;
+}
+.account a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+}
+/* car css */
+.cart {
+    float: right;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.cart img {
+    float: left;
+}
+.cart .show-cart{
+    float: left;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+.cart .show-cart a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+}
+.cart .show-cart span {
+    color: #9f9c9c;
+}
