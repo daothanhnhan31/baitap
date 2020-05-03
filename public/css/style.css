@@ -47,7 +47,7 @@
     text-decoration: none;
     color: #000000;
 }
-/* car css */
+/* cart css */
 .cart {
     float: right;
     margin-top: 25px;
@@ -69,4 +69,63 @@
 }
 .cart .show-cart span {
     color: #9f9c9c;
+}
+/* header line css */
+.header-line {
+    height: 40px;
+    border-bottom: 1px solid #0f9ed8;
+    margin-bottom: 40px;
+}
+.header-line .header-line-text-area {
+    margin: 0 auto;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 26px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+.header-line .header-line-text-area h1{
+    font-size: 27px;
+    color: #0f9ed8;
+}
+/* article css */
+.article {
+    width: 280px;
+    float: left;
+    margin-right: 26px;
+}
+.article-last {
+    margin-right: 0px;
+}
+.article .title-article {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.article .article-comment {
+    float: left;
+    margin-right: 20px;
+}
+.article .article-comment p{
+    display: inline-block;
+}
+.article i {
+    color: #0f9ed8;
+}
+.article .article-date p{
+    display: inline-block;
+}
+.article .article-content {
+    margin-top: 10px;
+}
+.article .read-more {
+    color: #ffffff;
+    background-color: #0f9ed8;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
 }
