@@ -118,15 +118,18 @@ ul{
     text-decoration:none;
 }
 #title-new{
-    background-color: white;
-    font-family: Arial;
-    font-size: 20px;
-    color: #297aff;
-    text-align: center;
-    width: 200px;
-    height: 20px;
-    margin-left:596px;
-    margin-top:-10px;
+	background-color: white;
+	font-family: Arial;
+	font-size: 20px;
+	color:#297aff;
+	text-align: center;
+	width: 200px;
+	height: 20px;
+	margin-left: 570px;
+   	margin-top: -10px;
+}
+.new-box{
+	text-decoration:none;
 }
 .icon-new{
     text-overflow: ellipsis;
