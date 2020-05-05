@@ -707,8 +707,8 @@ readers do not read off random characters that represent icons */
 
 .fa-calendar-alt:before {
   content: "\f073";
-  color: #2754fc;
-  border: 2px; }
+  color: #0f9ed8;
+  border: 5px; }
 
 .fa-calendar-check:before {
   content: "\f274"; }
@@ -1044,7 +1044,9 @@ readers do not read off random characters that represent icons */
   content: "\f0db"; }
 
 .fa-comment:before {
-  content: "\f075"; }
+  content: "\f075";
+   color: #0f9ed8;
+  border: 5px;  }
 
 .fa-comment-alt:before {
   content: "\f27a"; }
