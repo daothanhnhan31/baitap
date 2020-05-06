@@ -1,0 +1,245 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Arial;
+	font-size: 13px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+/* header css */
+.header {
+	border-bottom: #9f9c9c 1px solid;
+	height: 93px;
+}
+/* content css */
+.content {
+	width: 1200px;
+	margin: 0 auto;
+	height: 93px;
+}
+/* logo css */
+.logo {
+    float: left;
+}
+/* search css */
+.search-bar {
+    float: left;
+}
+.search-bar form {
+    margin-top: 25px;
+}
+.search-bar form input {
+    width: 505px;
+    height: 40px;
+    font-size: 13px;
+    float: left;
+}
+.search-bar form button {
+    height: 44px;
+    width: 73px;
+    background-color: #0f9ed8;
+    color: #ffffff;
+    float: left;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+/* account css */
+.account {
+    float: right;
+    margin-top: 25px;
+}
+.account a{
+	font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+}
+/* car css */
+.cart {
+    float: right;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.cart img{
+    float: left;
+}
+.cart .show-cart{
+    float: left;
+    margin-top: 8px;
+    margin-left: 3px;
+}
+.cart .show-cart a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000000;
+}
+.cart .show-cart span {
+    color: #9f9c9c;
+}
+/* main css */
+.main-body{
+    width: auto;
+    height: 0px;
+}
+.main{
+    width: 1231px;
+    height: 100%;
+}
+/* main-new css */
+.new{
+    width: 1300px;
+    height: 100%;
+    margin-top: 38px;
+    margin-left: 162px;
+}
+.underline-new{
+    margin-top: 60px;
+    margin-left: 161px;
+    border-top-width: 1200px;
+    border-top: 2px solid #0f9ed8;
+}
+.img-new img{
+    width: 260px;
+    height: 250px;
+}
+/* new-box css */
+.new-box{
+    text-decoration:none;
+}
+#title-new{
+	background-color: white;
+	font-family: Arial;
+	font-size: 20px;
+	color:#297aff;
+	text-align: center;
+	width: 200px;
+	height: 20px;
+	margin-left: 570px;
+   	margin-top: -10px;
+}
+.new-box{
+	text-decoration:none;
+}
+.icon-new{
+    text-overflow: ellipsis;
+    line-height: 20px;
+    width: 265px;
+}
+.note p{
+    word-break: break-all;
+    text-align: center;
+}
+#box1{
+    float: left;
+    width: 23%;
+    height:100%;
+}
+#box2{
+    float: left;
+    width: 23%;
+    height:100%;
+    margin-left: 270px;
+}
+#box3{
+    float: left;
+    width: 23%;
+    height:100%;
+    margin-left: 540px;
+}
+#box4{
+    float: left;
+    width: 23%;
+    height:100%;
+    margin-left: 810px;
+}
+.btn-read input{
+    width: 87px;
+    height: 33px;
+    background-color: #0f9ed8;
+    color:white;
+    font-weight: bold;
+    border: 0px;
+    font-family: Arial;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.bottom{
+    width: 1349px;
+    height:150px;
+    background-color: #bdbdbd;
+}
+
+.title{
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+ 	font-weight: bold;
+    height: 25px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    width: 260px;
+}
+.footer{
+    margin-top: 550px;
+    margin-left: 160px;
+    font-family: Arial;
+    background-color: grey;
+}
+#btm-1{
+    float:left;
+    width: 23%;
+    margin-left: 1px;
+    padding-top: 25px;
+}
+#btm-2{
+    float: left;
+    width: 23%;
+    padding-top: 25px;
+}
+#btm-3{
+    float: left;
+    width: 23%;
+    padding-top: 25px;
+    border-bottom: 0.5px solid gray;
+}
+#btm-4{
+    float: left;
+    width: 23%;
+    margin-top: 0px;
+    padding-top: 25px;
+}
+.link{
+    color: black;
+}
+.footer ul li{
+    color: black;
+    font-size: 13px;
+    line-height: 23px;
+}
+#mail{
+    margin: 15px;
+    margin-left: 1px;
+}
+#mail input{
+    background-color: #bdbdbd;
+    border:0px;
+}
+.signin span{
+    margin: 0.2px;
+}
+.title-btm{
+	line-height: 20px;
+	width: 262px;
+	border-bottom: 0.5px solid black;
+}
